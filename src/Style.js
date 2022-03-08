@@ -30,6 +30,7 @@ export const Container = styled.div`
         .profile_card {
           background: #1d204b;
           border-radius: 16px;
+          box-shadow:0 10px 10px 0px hsl(208deg 16% 85%);
           &__top {
             border-radius: 16px;
             background: #5746ea;
@@ -126,6 +127,7 @@ export const Container = styled.div`
           display: flex;
           border-radius: 16px;
           border: none;
+          box-shadow:0 10px 10px 0px hsl(208deg 16% 85%);
           @media (max-width: 548px) {
             padding-top: 38px;
             width: min(327px, 100%);
