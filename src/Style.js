@@ -30,7 +30,7 @@ export const Container = styled.div`
         .profile_card {
           background: #1d204b;
           border-radius: 16px;
-          box-shadow:0 10px 10px 0px hsl(208deg 16% 85%);
+          box-shadow:0 10px 10px 0px rgba(0, 0, 0, 0.3);
           &__top {
             border-radius: 16px;
             background: #5746ea;
