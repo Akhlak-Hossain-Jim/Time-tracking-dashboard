@@ -85,6 +85,8 @@ function App() {
     },
   ];
 
+const timeStamp = ["Day","Week","Month"]
+
   return (
     <Container>
       <main>
@@ -134,7 +136,7 @@ function App() {
               </div>
               <div className="track_card__body_line__2">
                 <p className="track_card__body_line__2_time">{`${DATA[period].work.current}hrs`}</p>
-                <p className="track_card__body_line__2_last__week">{`Last Week - ${DATA[period].work.previous}hrs`}</p>
+                <p className="track_card__body_line__2_last__week">{`Last ${timeStamp[period]} - ${DATA[period].work.previous}hrs`}</p>
               </div>
             </div>
           </div>
@@ -148,7 +150,7 @@ function App() {
                 <p className="track_card__body_line__2_time">
                   {DATA[period].play.current}hrs
                 </p>
-                <p className="track_card__body_line__2_last__week">{`Last Week - ${DATA[period].play.previous}hrs`}</p>
+                <p className="track_card__body_line__2_last__week">{`Last ${timeStamp[period]} - ${DATA[period].play.previous}hrs`}</p>
               </div>
             </div>
           </div>
@@ -162,7 +164,7 @@ function App() {
                 <p className="track_card__body_line__2_time">
                   {DATA[period].study.current}hrs
                 </p>
-                <p className="track_card__body_line__2_last__week">{`Last Week - ${DATA[period].study.previous}hrs`}</p>
+                <p className="track_card__body_line__2_last__week">{`Last ${timeStamp[period]} - ${DATA[period].study.previous}hrs`}</p>
               </div>
             </div>
           </div>
@@ -176,7 +178,7 @@ function App() {
                 <p className="track_card__body_line__2_time">
                   {DATA[period].exercise.current}hrs
                 </p>
-                <p className="track_card__body_line__2_last__week">{`Last Week - ${DATA[period].exercise.previous}hrs`}</p>
+                <p className="track_card__body_line__2_last__week">{`Last ${timeStamp[period]} - ${DATA[period].exercise.previous}hrs`}</p>
               </div>
             </div>
           </div>
@@ -190,7 +192,7 @@ function App() {
                 <p className="track_card__body_line__2_time">
                   {DATA[period].social.current}hrs
                 </p>
-                <p className="track_card__body_line__2_last__week">{`Last Week - ${DATA[period].social.previous}hrs`}</p>
+                <p className="track_card__body_line__2_last__week">{`Last ${timeStamp[period]} - ${DATA[period].social.previous}hrs`}</p>
               </div>
             </div>
           </div>
@@ -204,7 +206,7 @@ function App() {
                 <p className="track_card__body_line__2_time">
                   {DATA[period].selfCare.current}hrs
                 </p>
-                <p className="track_card__body_line__2_last__week">{`Last Week - ${DATA[period].selfCare.previous}hrs`}</p>
+                <p className="track_card__body_line__2_last__week">{`Last ${timeStamp[period]} - ${DATA[period].selfCare.previous}hrs`}</p>
               </div>
             </div>
           </div>
