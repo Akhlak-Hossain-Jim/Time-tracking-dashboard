@@ -127,7 +127,7 @@ export const Container = styled.div`
           display: flex;
           border-radius: 16px;
           border: none;
-          box-shadow:0 10px 10px 0px hsl(208deg 16% 85%);
+          box-shadow:0 10px 10px 0px rgba(0, 0, 0, 0.3);
           @media (max-width: 548px) {
             padding-top: 38px;
             width: min(327px, 100%);
